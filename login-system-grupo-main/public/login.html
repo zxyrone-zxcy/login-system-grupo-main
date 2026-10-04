@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="card form-card">
+        <h1>Sign in</h1>
+        <form id="loginForm">
+          <label>
+            Username
+            <input type="text" id="username" name="username" required />
+          </label>
+          <label>
+            Password
+            <input type="password" id="password" name="password" required />
+          </label>
+          <button type="submit" class="button primary full-width">Log In</button>
+        </form>
+        <div class="form-links">
+          <a href="/register">Need an account?</a>
+          <a href="/forgot-password.html">Forgot password?</a>
+        </div>
+        <p id="message" class="message" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <script src="/js/login.js"></script>
+  </body>
+</html>
